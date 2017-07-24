@@ -19,3 +19,4 @@ Route::get('admin', function () {
     return view('admin_template');
 });
 Route::get('/', 'HomeController@index');
+Route::post('/', 'HomeController@index');
